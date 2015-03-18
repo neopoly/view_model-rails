@@ -1,4 +1,4 @@
-# ViewModels::Rails
+# ViewModel::Rails
 
 Rails engine providing view models.
 
@@ -7,7 +7,7 @@ Rails engine providing view models.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'view_models-rails', :git => 'gitlab@gitlab.neopoly.de:neopoly/view_models-rails.git'
+gem 'view_model-rails'
 ```
 
 And then execute:
@@ -18,12 +18,13 @@ And then execute:
 
 Generate a base class for your view models with
 
-    $ rake view_models:setup
+    $ rake view_model:setup
 
 ### Generator
 Create files and tests...
 
 Example 'RegisterForm':
+
 ```ruby
 rails g view_model RegisterForm
 ```

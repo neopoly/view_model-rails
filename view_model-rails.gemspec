@@ -1,16 +1,16 @@
 $:.push File.expand_path('../lib', __FILE__)
 
 # Maintain your gem's version:
-require 'view_models/rails/version'
+require 'view_model/rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'view_models-rails'
-  spec.version       = ViewModels::Rails::VERSION
+  spec.name          = 'view_model-rails'
+  spec.version       = ViewModel::Rails::VERSION
   spec.authors       = ['Andreas Busold']
   spec.email         = ['ab@neopoly.de']
 
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = 'http://gems.neopoly.com'
+    spec.metadata['allowed_push_host'] = 'https://rubygems.org'
   end
 
   spec.summary       = %q{Rails engine providing view models}
@@ -21,6 +21,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
+  spec.add_dependency 'view_model'
   spec.add_dependency 'rails'
 
   spec.add_development_dependency 'bundler', '~> 1.8'

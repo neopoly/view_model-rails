@@ -1,6 +1,6 @@
 require 'rails/engine'
 
-module ViewModels
+module ViewModel
   module Rails
     class Engine < ::Rails::Engine
     end
