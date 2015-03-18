@@ -1,0 +1,2 @@
+class -classname- < ViewModel
+end
