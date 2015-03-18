@@ -1,2 +1,2 @@
-class -classname- < ViewModel
+class -classname- < ViewModelBase
 end
