@@ -5,7 +5,7 @@ class ViewModelGenerator < Rails::Generators::NamedBase
   source_root File.expand_path('../templates', __FILE__)
 
   def create_view_model_file
-    path = "app/view_model/#{file_name}.rb"
+    path = "app/view_models/#{file_name}.rb"
 
     if FileTest.exists? path
       raise FileExistError, "This filename ist used by another view-model:#{path}"
@@ -16,7 +16,7 @@ class ViewModelGenerator < Rails::Generators::NamedBase
   end
 
   def create_presenter_test_file
-    path = "test/view_model/#{file_name}_view_model_test.rb"
+    path = "test/view_models/#{file_name}_view_model_test.rb"
     if FileTest.exists?path
       raise FileExistError, "This filename ist used by another view-model test:#{path}"
     end

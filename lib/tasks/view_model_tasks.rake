@@ -9,6 +9,6 @@ namespace :'view_model' do
 
   desc 'Build application base view model'
   task :setup do
-    copy_from_template 'app/view_model/view_model.rb'
+    copy_from_template 'app/view_models/view_model.rb'
   end
 end
