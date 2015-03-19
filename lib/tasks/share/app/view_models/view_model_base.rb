@@ -2,5 +2,5 @@
 
 require 'view_model'
 
-class ViewModelBase < ViewModel::Base
+class AbstractViewModel < ViewModel::Base
 end

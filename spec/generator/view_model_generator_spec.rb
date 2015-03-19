@@ -12,7 +12,7 @@ class ViewModelGeneratorTest < Rails::Generators::TestCase
     run_generator %w(user_form)
     
     assert_file 'app/view_models/user_form.rb' do |model|
-      assert_match(/class UserForm < ViewModel/, model)
+      assert_match(/class UserForm < AbstractViewModel/, model)
     end
   end
 
