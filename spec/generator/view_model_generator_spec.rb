@@ -16,10 +16,10 @@ class ViewModelGeneratorTest < Rails::Generators::TestCase
     end
   end
 
-  test "create view model test" do
+  test 'create view model test' do
     run_generator %w(user_form)
 
-    assert_file "test/view_models/user_form_view_model_test.rb" do |test|
+    assert_file 'test/view_models/user_form_view_model_test.rb' do |test|
       assert_match(/require 'test_helper'/, test)
       assert_match(/class UserFormViewModelTest < ActiveSupport::TestCase/, test)
     end
