@@ -15,7 +15,7 @@ class ViewModelGenerator < Rails::Generators::NamedBase
     replace_class_name path
   end
 
-  def create_presenter_test_file
+  def create_view_model_test_file
     path = "test/view_models/#{file_name}_view_model_test.rb"
     if FileTest.exists?path
       raise FileExistError, "This filename ist used by another view-model test:#{path}"
