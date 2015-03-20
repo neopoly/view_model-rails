@@ -4,14 +4,16 @@
 [travis]: https://travis-ci.org/neopoly/view_model-rails
 [travis-badge]: https://img.shields.io/travis/neopoly/view_model-rails.svg?branch=master
 [codeclimate]: https://codeclimate.com/github/neopoly/view_model-rails
+[codeclimate-climate-badge]: https://img.shields.io/codeclimate/github/neopoly/view_model-rails.svg
+[codeclimate-coverage-badge]: https://codeclimate.com/github/neopoly/rohbau/badges/view_model-rails.svg
 [inchpages]: https://inch-ci.org/github/neopoly/view_model-rails
 
 # ViewModel::Rails
 
 [![Travis][travis-badge]][travis]
 [![Gem Version](https://img.shields.io/gem/v/view_model-rails.svg)][gem]
-[![Code Climate](https://img.shields.io/codeclimate/github/neopoly/view_model-rails.svg)][codeclimate]
-[![Test Coverage](https://codeclimate.com/github/neopoly/view_model-rails/badges/coverage.svg)][codeclimate]
+[![Code Climate][codeclimate-climate-badge]][codeclimate]
+[![Test Coverage][codeclimate-coverage-badge]][codeclimate]
 [![Inline docs](https://inch-ci.org/github/neopoly/view_model-rails.svg?branch=master&style=flat)][inchpages]
 
 [Gem][gem] |
